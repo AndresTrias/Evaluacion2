@@ -1,0 +1,10 @@
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\bin\Debug\Evaluacion2.exe.config
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\bin\Debug\Evaluacion2.exe
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\bin\Debug\Evaluacion2.pdb
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Vista.csproj.AssemblyReference.cache
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Evaluacion2.Properties.Resources.resources
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Evaluacion2.exe
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Evaluacion2.pdb
+C:\Users\Andres\source\repos\Evaluacion2\Evaluacion2\obj\Debug\Evaluacion2.Interface.resources
