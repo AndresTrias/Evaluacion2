@@ -17,9 +17,6 @@ namespace Evaluacion2
             InitializeComponent();
         }
 
-        private void btnAlta_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -34,8 +34,8 @@ namespace Evaluacion2
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtConfirmarContrasenia = new System.Windows.Forms.TextBox();
+            this.txtContrasenia = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -80,8 +80,8 @@ namespace Evaluacion2
             // panel5
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel5.Controls.Add(this.textBox2);
-            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.txtConfirmarContrasenia);
+            this.panel5.Controls.Add(this.txtContrasenia);
             this.panel5.Controls.Add(this.txtApellido);
             this.panel5.Controls.Add(this.txtNombre);
             this.panel5.Controls.Add(this.btnBuscar);
@@ -94,25 +94,25 @@ namespace Evaluacion2
             this.panel5.Size = new System.Drawing.Size(579, 381);
             this.panel5.TabIndex = 4;
             // 
-            // textBox2
+            // txtConfirmarContrasenia
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(197, 146);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 26);
-            this.textBox2.TabIndex = 27;
-            this.textBox2.Text = "Confira Contrasenia";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtConfirmarContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmarContrasenia.Location = new System.Drawing.Point(197, 146);
+            this.txtConfirmarContrasenia.Name = "txtConfirmarContrasenia";
+            this.txtConfirmarContrasenia.Size = new System.Drawing.Size(180, 26);
+            this.txtConfirmarContrasenia.TabIndex = 27;
+            this.txtConfirmarContrasenia.Text = "Confirmar Contrasenia";
+            this.txtConfirmarContrasenia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // txtContrasenia
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(197, 107);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 26);
-            this.textBox1.TabIndex = 26;
-            this.textBox1.Text = "Contrasenia";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContrasenia.Location = new System.Drawing.Point(197, 107);
+            this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.Size = new System.Drawing.Size(180, 26);
+            this.txtContrasenia.TabIndex = 26;
+            this.txtContrasenia.Text = "Contrasenia";
+            this.txtContrasenia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtApellido
             // 
@@ -210,8 +210,8 @@ namespace Evaluacion2
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtConfirmarContrasenia;
+        private System.Windows.Forms.TextBox txtContrasenia;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnBuscar;
