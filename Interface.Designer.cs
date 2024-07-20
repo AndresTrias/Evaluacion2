@@ -43,7 +43,9 @@ namespace Evaluacion2
             this.btnModificacion = new System.Windows.Forms.Button();
             this.btnBaja = new System.Windows.Forms.Button();
             this.btnAlta = new System.Windows.Forms.Button();
+            this.tablaDeDatos = new System.Windows.Forms.DataGridView();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaDeDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -80,6 +82,7 @@ namespace Evaluacion2
             // panel5
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.panel5.Controls.Add(this.tablaDeDatos);
             this.panel5.Controls.Add(this.txtConfirmarContrasenia);
             this.panel5.Controls.Add(this.txtContrasenia);
             this.panel5.Controls.Add(this.txtApellido);
@@ -93,11 +96,12 @@ namespace Evaluacion2
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(579, 381);
             this.panel5.TabIndex = 4;
+           
             // 
             // txtConfirmarContrasenia
             // 
             this.txtConfirmarContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmarContrasenia.Location = new System.Drawing.Point(197, 146);
+            this.txtConfirmarContrasenia.Location = new System.Drawing.Point(6, 117);
             this.txtConfirmarContrasenia.Name = "txtConfirmarContrasenia";
             this.txtConfirmarContrasenia.Size = new System.Drawing.Size(180, 26);
             this.txtConfirmarContrasenia.TabIndex = 27;
@@ -107,7 +111,7 @@ namespace Evaluacion2
             // txtContrasenia
             // 
             this.txtContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContrasenia.Location = new System.Drawing.Point(197, 107);
+            this.txtContrasenia.Location = new System.Drawing.Point(6, 85);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(180, 26);
             this.txtContrasenia.TabIndex = 26;
@@ -117,7 +121,7 @@ namespace Evaluacion2
             // txtApellido
             // 
             this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(197, 73);
+            this.txtApellido.Location = new System.Drawing.Point(6, 53);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(180, 26);
             this.txtApellido.TabIndex = 25;
@@ -127,7 +131,7 @@ namespace Evaluacion2
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(197, 41);
+            this.txtNombre.Location = new System.Drawing.Point(6, 21);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(180, 26);
             this.txtNombre.TabIndex = 24;
@@ -137,7 +141,7 @@ namespace Evaluacion2
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(133, 309);
+            this.btnBuscar.Location = new System.Drawing.Point(17, 223);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(146, 31);
             this.btnBuscar.TabIndex = 23;
@@ -147,7 +151,7 @@ namespace Evaluacion2
             // btnListar
             // 
             this.btnListar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListar.Location = new System.Drawing.Point(300, 309);
+            this.btnListar.Location = new System.Drawing.Point(17, 297);
             this.btnListar.Name = "btnListar";
             this.btnListar.Size = new System.Drawing.Size(146, 31);
             this.btnListar.TabIndex = 22;
@@ -157,7 +161,7 @@ namespace Evaluacion2
             // btnModificacion
             // 
             this.btnModificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificacion.Location = new System.Drawing.Point(300, 255);
+            this.btnModificacion.Location = new System.Drawing.Point(17, 260);
             this.btnModificacion.Name = "btnModificacion";
             this.btnModificacion.Size = new System.Drawing.Size(146, 31);
             this.btnModificacion.TabIndex = 21;
@@ -167,7 +171,7 @@ namespace Evaluacion2
             // btnBaja
             // 
             this.btnBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBaja.Location = new System.Drawing.Point(133, 255);
+            this.btnBaja.Location = new System.Drawing.Point(17, 186);
             this.btnBaja.Name = "btnBaja";
             this.btnBaja.Size = new System.Drawing.Size(146, 31);
             this.btnBaja.TabIndex = 20;
@@ -177,12 +181,21 @@ namespace Evaluacion2
             // btnAlta
             // 
             this.btnAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlta.Location = new System.Drawing.Point(214, 187);
+            this.btnAlta.Location = new System.Drawing.Point(17, 149);
             this.btnAlta.Name = "btnAlta";
             this.btnAlta.Size = new System.Drawing.Size(146, 31);
             this.btnAlta.TabIndex = 19;
             this.btnAlta.Text = "Registrar";
             this.btnAlta.UseVisualStyleBackColor = true;
+            // 
+            // tablaDeDatos
+            // 
+            this.tablaDeDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaDeDatos.Location = new System.Drawing.Point(201, 21);
+            this.tablaDeDatos.Name = "tablaDeDatos";
+            this.tablaDeDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.tablaDeDatos.Size = new System.Drawing.Size(351, 344);
+            this.tablaDeDatos.TabIndex = 28;
             // 
             // Interface
             // 
@@ -199,6 +212,7 @@ namespace Evaluacion2
             this.Text = "Interface";
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaDeDatos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -219,6 +233,7 @@ namespace Evaluacion2
         private System.Windows.Forms.Button btnModificacion;
         private System.Windows.Forms.Button btnBaja;
         private System.Windows.Forms.Button btnAlta;
+        private System.Windows.Forms.DataGridView tablaDeDatos;
     }
 }
 
